@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* Show it is fixed to the top */
+body {
+  	/*min-height: 75rem;*/
+  	padding-top: 4.5rem;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    	font-size: 3.5rem;
+    }
+}
+
+.main-box {
+	padding-bottom: 75px !important;
+}
+
+.title-box h1 {
+	color: purple;	
+}
+
+.title-box h3 {
+	color: darkcyan;
+	font-style: italic;
+}
+
+.content-box h2 {
+	color: gray;
+	margin-top: 40px;
+}
+
+footer {
+	padding-top: 300px;
+	padding-bottom: 30px;
+}
+
+footer h6 {
+	color: navy;
+	font-size: 13pt;
+	font-style: italic;
+}
+
